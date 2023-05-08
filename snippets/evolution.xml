@@ -19,6 +19,10 @@
            fetch="https://gitlab.com/EvoX"
            revision="refs/heads/snow" />
 
+  <remote  name="evo-gitlab-gms"
+           fetch="https://gitlab.com/EvoX"
+           revision="refs/heads/tiramisu" />
+           
   <remote  name="pe"
            fetch="https://github.com/PixelExperience"
            revision="refs/heads/twelve" />
@@ -320,7 +324,7 @@
   <!-- vendor repos -->
   <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="arrow" />
   <project path="vendor/evolution" name="vendor_evolution" remote="evo" />
-  <project path="vendor/gms" name="vendor_gms" groups="vendor" remote="evo-gitlab" clone-depth="1" />
+  <project path="vendor/gms" name="vendor_gms" groups="vendor" remote="evo-gitlab-gms" clone-depth="1" />
   <project path="vendor/pixel-framework" name="vendor_pixel-framework" remote="evo" />
   <project path="vendor/qcom/opensource/commonsys-intf/bluetooth" name="vendor_qcom_opensource_bluetooth-commonsys-intf" remote="evo" />
   <project path="vendor/qcom/opensource/commonsys/bluetooth_ext" name="vendor_qcom_opensource_bluetooth_ext" remote="evo" />
